@@ -1,0 +1,18 @@
+[
+    "AptClient",
+    "Shell",
+    "FtpShell",
+    "Computer",
+    "File",
+    "Crypto",
+    "Metaxploit",
+    "NetSession",
+    "MetaLib",
+    "Router",
+    "Port",
+    "MetaMail",
+    "General",
+    "String",
+    "List",
+    "Map"
+]
