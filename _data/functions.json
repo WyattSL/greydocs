@@ -169,20 +169,7 @@
         "str",
         "ceil",
         "pi",
-        "slice",
-        "for",
-        "while",
-        "break",
-        "continue",
-        "if",
-        "else",
-        "function",
-        "then",
-        "end",
-        "true",
-        "false",
-        "null",
-        "not"
+        "slice"
     ],
     "String": [
         "remove",

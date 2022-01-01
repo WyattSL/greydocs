@@ -206,7 +206,7 @@
                 "type": "null"
             }
         ],
-        "smtp_user_List": [
+        "smtp_user_list": [
             {
                 "type": "String"
             },
@@ -378,7 +378,11 @@
         ]
     },
     "File": {
-        "chmod": [],
+        "chmod": [
+            {
+                "type": "String"
+            }
+        ],
         "copy": [
             {
                 "type": "String"
@@ -439,6 +443,11 @@
             }
         ],
         "is_binary": [
+            {
+                "type": "Number"
+            }
+        ],
+        "is_folder": [
             {
                 "type": "Number"
             }
@@ -604,9 +613,24 @@
             {
                 "type": "String"
             }
+        ],
+        "local_ip": [
+            {
+                "type": "String"
+            }
+        ],
+        "public_ip": [
+            {
+                "type": "String"
+            }
         ]
     },
     "General": {
+        "md5": [
+            {
+                "type": "String"
+            }
+        ],
         "mail_login": [
             {
                 "type": "String"
@@ -978,8 +1002,16 @@
                 "type": "null"
             }
         ],
-        "join": [],
-        "push": [],
+        "join": [
+            {
+                "type": "String"
+            }
+        ],
+        "push": [
+            {
+                "type": "null"
+            }
+        ],
         "pop": [
             {
                 "type": "Any"
@@ -990,9 +1022,21 @@
                 "type": "Any"
             }
         ],
-        "shuffle": [],
-        "reverse": [],
-        "sort": [],
+        "shuffle": [
+            {
+                "type": "List"
+            }
+        ],
+        "reverse": [
+            {
+                "type": "List"
+            }
+        ],
+        "sort": [
+            {
+                "type": "List"
+            }
+        ],
         "remove": [
             {
                 "type": "List",
@@ -1036,13 +1080,21 @@
                 "type": "null"
             }
         ],
-        "push": [],
+        "push": [
+            {
+                "type": "null"
+            }
+        ],
         "pop": [
             {
                 "type": "Any"
             }
         ],
-        "shuffle": [],
+        "shuffle": [
+            {
+                "type": "Map"
+            }
+        ],
         "remove": [
             {
                 "type": "List",
@@ -1061,7 +1113,9 @@
             }
         ],
         "values": [
-            "List"
+            {
+                "type": "List"
+            }
         ],
         "sum": [
             {

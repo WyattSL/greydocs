@@ -35,7 +35,8 @@ permalink: /api
     {% assign retdata = retdata | strip_newlines | strip %}
     {% assign x = argdata | size | minus:1 %}
     {% assign y = retdata | size | minus:2 %}
-    {% if argdata | size > 0 %}
+    {% assign z = argdata | size %}
+    {% if z > 1 %}
         {% assign p1 = "(" %}
         {% assign p2 = ")" %}
     {% endif %}
