@@ -3,19 +3,6 @@ layout: default
 title: "Greyscript Documentation"
 permalink: /api
 ---
-<style>
-    pre {
-        background: inherit !important;
-        border: inherit !important;
-        padding: inherit !important;
-        font-size: inherit !important;
-        color: inherit !important;
-        border-radius: inherit !important;
-        word-wrap: inherit !important;
-        overflow: inherit !important;
-        overflow-y: inherit !important;
-    }
-</style>
 # Greyscript Documentation
 {% assign encrypt = site.data.encryption %}
 {% for type in site.data.typelist %}
@@ -25,13 +12,13 @@ permalink: /api
     {% assign desc = site.data.descriptions[type][func] %}
     {% assign examples = site.data.examples[type][func] %}
     {% assign returns = site.data.returns[type][func] %}
-    <details><summary>{{ type }}.{{ func }}({% for a in args %}{% if a.optional %}?{{ a.name }}:{{ a.type }}, {% else %}{{ a.name }}:{{ a.type }}, {% endif %}{% endfor %}) : {% for r in returns %}{% if r.subType %}{{ r.type }}[{{ r.subType }}] | {% else %}{{ r.type }} | {% endif %}{% endfor %}</summary>
-    {{ desc }}
-    {% comment %}
-    {% for ex in examples %}
-        ```lua
-            {{ ex }}
-        ```
+<details><summary>{{ type }}.{{ func }}({% for a in args %}{% if a.optional %}?{{ a.name }}:{{ a.type }}, {% else %}{{ a.name }}:{{ a.type }}, {% endif %}{% endfor %}) : {% for r in returns %}{% if r.subType %}{{ r.type }}[{{ r.subType }}] | {% else %}{{ r.type }} | {% endif %}{% endfor %}</summary>
+{{ desc }}
+{% comment %}
+{% for ex in examples %}
+```lua
+{{ ex }}
+```
     {% endfor %}
     {% endcomment %}
     </details>
