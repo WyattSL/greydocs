@@ -21,7 +21,7 @@ permalink: /api
 ```
     {% endfor %}
     {% endcomment %}
-    </details>
+</details>
   {% endfor %}
   </details>
 {% endfor %}
