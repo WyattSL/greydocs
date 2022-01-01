@@ -3,6 +3,19 @@ layout: default
 title: "Greyscript Documentation"
 permalink: /api
 ---
+<style>
+    pre {
+        background: inherit !important;
+        border: inherit !important;
+        padding: inherit !important;
+        font-size: inherit !important;
+        color: inherit !important;
+        border-radius: inherit !important;
+        word-wrap: inherit !important;
+        overflow: inherit !important;
+        overflow-y: inherit !important;
+    }
+</style>
 # Greyscript Documentation
 {% assign encrypt = site.data.encryption %}
 {% for type in site.data.typelist %}
