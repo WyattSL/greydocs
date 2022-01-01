@@ -5,8 +5,9 @@ permalink: /api
 ---
 # Greyscript Documentation
 {% assign encrypt = site.data.encryption %}
+<ul>
 {% for type in site.data.typelist %}
-  <details><summary><b>{{ type }}</b></summary>
+  <li><details><summary><b>{{ type }}</b></summary><ul>
   {% for func in site.data.functions[type] %}
     {% assign args = site.data.arguments[type][func] %}
     {% assign desc = site.data.descriptions[type][func] %}
@@ -32,12 +33,11 @@ permalink: /api
     {% endcapture %}
     {% assign argdata = argdata | strip_newlines | strip %}
     {% assign retdata = retdata | strip_newlines | strip %}
-    {% assign x = argdata | size | minus:2 %}
-    {% assign y = retdata | size | minus:3 %}
-<details><summary>{{ type }}.{{ func }}({{ argdata | slice: 0, x}}) : {{ retdata | slice: 0, y}}</summary>
+    {% assign x = argdata | size | minus:1 %}
+    {% assign y = retdata | size | minus:2 %}
+<li><details><summary>{{ type }}.{{ func }}({{ argdata | slice: 0, x}}) : {{ retdata | slice: 0, y}}</summary></li>
 {% if encrypt contains func %}
-| :lock:        | Cannot be used in encryption. |
-|---------------|:------------------------------|
+**Note:** This method cannot be used in encryption configuration.
 {% endif %}
 {{ desc }}
 {% for ex in examples %}
@@ -45,7 +45,8 @@ permalink: /api
 {{ ex }}
 ```
 {% endfor %}
-</details>
+</ul></details></li>
   {% endfor %}
-  </details>
+  </details></li>
 {% endfor %}
+</ul>
