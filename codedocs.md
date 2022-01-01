@@ -30,7 +30,9 @@ permalink: /api
             {% endif %}
         {% endfor %}
     {% endcapture %}
-<details><summary>{{ type }}.{{ func }}({{ argdata | slice: 1, argdata | size | minus:2}}) : {{ retdata | slice: 1, retdata | size | minus:3}}</summary>
+    {% assign x = argdata | size | minus:2 %}
+    {% assign y = retdata | size | minus:3 %}
+<details><summary>{{ type }}.{{ func }}({{ argdata | slice: 1, x}}) : {{ retdata | slice: 1, y}}</summary>
 {{ desc }}
 {% comment %}
 {% for ex in examples %}
