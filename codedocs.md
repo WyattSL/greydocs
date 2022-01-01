@@ -45,8 +45,8 @@ permalink: /api
 {{ ex }}
 ```
 {% endfor %}
-</ul></details></li>
+</details></li>
   {% endfor %}
-  </details></li>
+  </ul></details></li>
 {% endfor %}
 </ul>
