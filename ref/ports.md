@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Default Ports"
+permalink: /ref/ports
+---
 ## Default Ports
 | Port # | Service | Generates | Installable |
 | ------ | ------- | --------- | ----------- |
