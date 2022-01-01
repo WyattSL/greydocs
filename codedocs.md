@@ -34,15 +34,17 @@ permalink: /api
     {% assign retdata = retdata | strip_newlines | strip %}
     {% assign x = argdata | size | minus:2 %}
     {% assign y = retdata | size | minus:3 %}
-<details><summary>{{ type }}.{{ func }}({{ argdata | slice: 1, x}}) : {{ retdata | slice: 1, y}}</summary>
+<details><summary>{{ type }}.{{ func }}({{ argdata | slice: 0, x}}) : {{ retdata | slice: 0, y}}</summary>
+{% if encrypt contains func %}
+| :padlock: | This method cannot be used in encryption! |
+| --------- | :---------------------------------------- |
+{% endif %}
 {{ desc }}
-{% comment %}
 {% for ex in examples %}
 ```lua
 {{ ex }}
 ```
-    {% endfor %}
-    {% endcomment %}
+{% endfor %}
 </details>
   {% endfor %}
   </details>
