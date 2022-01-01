@@ -35,7 +35,11 @@ permalink: /api
     {% assign retdata = retdata | strip_newlines | strip %}
     {% assign x = argdata | size | minus:1 %}
     {% assign y = retdata | size | minus:2 %}
-<li><details><summary>{{ type }}.{{ func }}({{ argdata | slice: 0, x}}) : {{ retdata | slice: 0, y}}</summary>
+    {% if argdata | size > 0 %}
+        {% assign p1 = "(" %}
+        {% assign p2 = ")" %}
+    {% endif %}
+<li><details><summary>{{ type }}.{{ func }}{{ p1 }}{{ argdata | slice: 0, x}}{{ p2 }} : {{ retdata | slice: 0, y}}</summary>
 {% if encrypt contains func %}
 > **Note:** This method cannot be used in encryption configuration.
 {% endif %}
@@ -50,3 +54,5 @@ permalink: /api
   </ul></details></li>
 {% endfor %}
 </ul>
+
+#### API data from the vscode Greyscript extension, available at https://github.com/WyattSL/greyscript.
