@@ -6,7 +6,7 @@ permalink: /api
 # Greyscript Documentation
 {% assign encrypt = site.data.encryption %}
 {% for type in site.data.typelist %}
-  <details><summary>## {{ type }}</summary>
+  <details><summary><b>{{ type }}</b></summary>
   {% for func in site.data.functions[type] %}
     {% assign args = site.data.arguments[type][func] %}
     {% assign desc = site.data.descriptions[type][func] %}
