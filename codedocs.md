@@ -35,9 +35,9 @@ permalink: /api
     {% assign retdata = retdata | strip_newlines | strip %}
     {% assign x = argdata | size | minus:1 %}
     {% assign y = retdata | size | minus:2 %}
-<li><details><summary>{{ type }}.{{ func }}({{ argdata | slice: 0, x}}) : {{ retdata | slice: 0, y}}</summary></li>
+<li><details><summary>{{ type }}.{{ func }}({{ argdata | slice: 0, x}}) : {{ retdata | slice: 0, y}}</summary>
 {% if encrypt contains func %}
-**Note:** This method cannot be used in encryption configuration.
+> **Note:** This method cannot be used in encryption configuration.
 {% endif %}
 {{ desc }}
 {% for ex in examples %}
