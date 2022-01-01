@@ -36,8 +36,8 @@ permalink: /api
     {% assign y = retdata | size | minus:3 %}
 <details><summary>{{ type }}.{{ func }}({{ argdata | slice: 0, x}}) : {{ retdata | slice: 0, y}}</summary>
 {% if encrypt contains func %}
-| :padlock: | This method cannot be used in encryption! |
-| --------- | :---------------------------------------- |
+| :lock:        | Cannot be used in encryption. |
+|---------------|:------------------------------|
 {% endif %}
 {{ desc }}
 {% for ex in examples %}
