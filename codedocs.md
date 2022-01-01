@@ -19,7 +19,7 @@ permalink: /api
             {% else %}
 {{ a.name }}:{{ a.type }}, 
             {% endif %}
-        {% endfor %})
+        {% endfor %}
     {% endcapture %}
     {% capture retdata %}
         {% for r in returns %}
@@ -30,8 +30,8 @@ permalink: /api
             {% endif %}
         {% endfor %}
     {% endcapture %}
-    {% assign argdata = argdata | strip_newlines %}
-    {% assign retdata = retdata | strip_newlines %}
+    {% assign argdata = argdata | strip_newlines | strip %}
+    {% assign retdata = retdata | strip_newlines | strip %}
     {% assign x = argdata | size | minus:2 %}
     {% assign y = retdata | size | minus:3 %}
 <details><summary>{{ type }}.{{ func }}({{ argdata | slice: 1, x}}) : {{ retdata | slice: 1, y}}</summary>
