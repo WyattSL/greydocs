@@ -12,7 +12,25 @@ permalink: /api
     {% assign desc = site.data.descriptions[type][func] %}
     {% assign examples = site.data.examples[type][func] %}
     {% assign returns = site.data.returns[type][func] %}
-<details><summary>{{ type }}.{{ func }}({% for a in args %}{% if a.optional %}?{{ a.name }}:{{ a.type }}, {% else %}{{ a.name }}:{{ a.type }}, {% endif %}{% endfor %}) : {% for r in returns %}{% if r.subType %}{{ r.type }}[{{ r.subType }}] | {% else %}{{ r.type }} | {% endif %}{% endfor %}</summary>
+    {% capture argtext %}
+        {% for a in args %}
+            {% if a.optional %}
+?{{ a.name }}:{{ a.type }},
+            {% else %}
+{{ a.name }}:{{ a.type }},
+            {% endif %}
+        {% endfor %})
+    {% endcapture %}
+    {% capture retdata %}
+        {% for r in returns %}
+            {% if r.subType %}
+{{ r.type }}[{{ r.subType }}] | 
+            {% else %}
+{{ r.type }} | 
+            {% endif %}
+        {% endfor %}
+    {% endcapture %}
+<details><summary>{{ type }}.{{ func }}({{ argdata | slice: 1, argdata | size | minus:2}}) : {{ retdata | slice: 1, retdata | size | minus:3}}</summary>
 {{ desc }}
 {% comment %}
 {% for ex in examples %}
