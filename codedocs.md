@@ -12,12 +12,12 @@ permalink: /api
     {% assign desc = site.data.descriptions[type][func] %}
     {% assign examples = site.data.examples[type][func] %}
     {% assign returns = site.data.returns[type][func] %}
-    {% capture argtext %}
+    {% capture argdata %}
         {% for a in args %}
             {% if a.optional %}
-?{{ a.name }}:{{ a.type }},
+?{{ a.name }}:{{ a.type }}, 
             {% else %}
-{{ a.name }}:{{ a.type }},
+{{ a.name }}:{{ a.type }}, 
             {% endif %}
         {% endfor %})
     {% endcapture %}
@@ -30,6 +30,8 @@ permalink: /api
             {% endif %}
         {% endfor %}
     {% endcapture %}
+    {% assign argdata = argdata | strip_newlines %}
+    {% assign retdata = retdata | strip_newlines %}
     {% assign x = argdata | size | minus:2 %}
     {% assign y = retdata | size | minus:3 %}
 <details><summary>{{ type }}.{{ func }}({{ argdata | slice: 1, x}}) : {{ retdata | slice: 1, y}}</summary>
