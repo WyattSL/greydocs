@@ -40,7 +40,12 @@ permalink: /api
         {% assign p1 = "(" %}
         {% assign p2 = ")" %}
     {% endif %}
+    {% if type != "General" %}
 <li><details><summary>{{ type }}.{{ func }}{{ p1 }}{{ argdata | slice: 0, x}}{{ p2 }} : {{ retdata | slice: 0, y}}</summary>
+    {% endif %}
+    {% if type == "General" %}
+<li><details><summary>{{ func }}{{ p1 }}{{ argdata | slice: 0, x}}{{ p2 }} : {{ retdata | slice: 0, y}}</summary>
+    {% endif %}
 {% if encrypt contains func %}
 > **Note:** This method cannot be used in encryption configuration.
 {% endif %}
