@@ -33,6 +33,9 @@
             },
             {
                 "type": "String"
+            },
+            {
+                "type": "null"
             }
         ],
         "launch": [
@@ -89,6 +92,9 @@
         "update": [
             {
                 "type": "String"
+            },
+            {
+                "type": "Number"
             }
         ],
         "add_repo": [
@@ -104,11 +110,17 @@
         "install": [
             {
                 "type": "String"
+            },
+            {
+                "type": "Number"
             }
         ],
         "check_upgrade": [
             {
                 "type": "String"
+            },
+            {
+                "type": "Number"
             }
         ]
     },
@@ -206,7 +218,7 @@
                 "type": "null"
             }
         ],
-        "smtp_user_list": [
+        "smtp_user_List": [
             {
                 "type": "String"
             },
@@ -378,11 +390,7 @@
         ]
     },
     "File": {
-        "chmod": [
-            {
-                "type": "String"
-            }
-        ],
+        "chmod": [],
         "copy": [
             {
                 "type": "String"
@@ -443,11 +451,6 @@
             }
         ],
         "is_binary": [
-            {
-                "type": "Number"
-            }
-        ],
-        "is_folder": [
             {
                 "type": "Number"
             }
@@ -613,24 +616,9 @@
             {
                 "type": "String"
             }
-        ],
-        "local_ip": [
-            {
-                "type": "String"
-            }
-        ],
-        "public_ip": [
-            {
-                "type": "String"
-            }
         ]
     },
     "General": {
-        "md5": [
-            {
-                "type": "String"
-            }
-        ],
         "mail_login": [
             {
                 "type": "String"
@@ -1002,16 +990,8 @@
                 "type": "null"
             }
         ],
-        "join": [
-            {
-                "type": "String"
-            }
-        ],
-        "push": [
-            {
-                "type": "null"
-            }
-        ],
+        "join": [],
+        "push": [],
         "pop": [
             {
                 "type": "Any"
@@ -1022,21 +1002,9 @@
                 "type": "Any"
             }
         ],
-        "shuffle": [
-            {
-                "type": "List"
-            }
-        ],
-        "reverse": [
-            {
-                "type": "List"
-            }
-        ],
-        "sort": [
-            {
-                "type": "List"
-            }
-        ],
+        "shuffle": [],
+        "reverse": [],
+        "sort": [],
         "remove": [
             {
                 "type": "List",
@@ -1080,21 +1048,13 @@
                 "type": "null"
             }
         ],
-        "push": [
-            {
-                "type": "null"
-            }
-        ],
+        "push": [],
         "pop": [
             {
                 "type": "Any"
             }
         ],
-        "shuffle": [
-            {
-                "type": "Map"
-            }
-        ],
+        "shuffle": [],
         "remove": [
             {
                 "type": "List",
@@ -1113,9 +1073,7 @@
             }
         ],
         "values": [
-            {
-                "type": "List"
-            }
+            "List"
         ],
         "sum": [
             {
