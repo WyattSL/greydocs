@@ -14,5 +14,10 @@
     "General",
     "String",
     "List",
-    "Map"
+    "Map",
+    "Blockchain",
+    "Wallet",
+    "SubWallet",
+    "Coin",
+    "Service"
 ]

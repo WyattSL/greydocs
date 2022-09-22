@@ -5,6 +5,7 @@ permalink: /api
 ---
 # Greyscript Documentation
 {% assign encrypt = site.data.encryption %}
+{% assign nightly = site.data.nightly %}
 <ul>
 {% for type in site.data.typelist %}
   <li><details><summary><b>{{ type }}</b></summary><ul>
@@ -48,6 +49,9 @@ permalink: /api
     {% endif %}
 {% if encrypt contains func %}
 > **Note:** This method cannot be used in encryption configuration.
+{% endif %}
+{% if nightly contains func %}
+> **NIGHTLY BUILD**: This function is only available in the nightly (or experimental?) branch of the game. It is subject to change at any time.
 {% endif %}
 {{ desc }}
 {% for ex in examples %}
