@@ -1,4 +1,5 @@
-*required to post this for the time being*
+*to be removed in the future*
+[youtube](https://www.youtube.com/channel/UCpBJVcfq2aR_nN5xWxlwfZA)
 > Fox baiting Soos Pasta, why shit. \
 > I knew his ways would catch up with him one day, \
 > He's a hacker, but maybe more like a social engineer, way he runs that group up there. \
