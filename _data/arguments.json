@@ -791,7 +791,11 @@
                 "name": "path",
                 "optional": false
             },
-            "folderName"
+            {
+                "type": "String",
+                "name": "folderName",
+                "optional": false
+            }
         ],
         "is_network_active": [],
         "touch": [
