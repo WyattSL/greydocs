@@ -752,7 +752,7 @@
         ],
         "size": [
             {
-                "type": "Number"
+                "type": "String"
             }
         ],
         "meta_info": [
