@@ -794,8 +794,7 @@
         ],
         "show_procs": [
             {
-                "type": "List",
-                "subType": "String"
+                "type": "String"
             }
         ],
         "network_devices": [
