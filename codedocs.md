@@ -47,10 +47,11 @@ permalink: /api
     {% if type == "General" %}
 <li><details><summary>{{ func }}{{ p1 }}{{ argdata | slice: 0, x}}{{ p2 }} : {{ retdata | slice: 0, y}}</summary>
     {% endif %}
-{% if encrypt contains func %}
+{% assign funcdef = type | append: "." | append: func %}
+{% if encrypt contains funcdef %}
 > **Note:** This method cannot be used in encryption configuration.
 {% endif %}
-{% if nightly contains func %}
+{% if nightly contains funcdef %}
 > **NIGHTLY BUILD**: This function is only available in the nightly (or experimental?) branch of the game. It is subject to change at any time.
 {% endif %}
 {{ desc }}
@@ -65,4 +66,4 @@ permalink: /api
 {% endfor %}
 </ul>
 
-#### API data from the vscode Greyscript extension, available at https://github.com/WyattSL/greyscript.
+#### Checkout the Visual Studio Code extension for Greyscript: it offers autocomplete and hover documentation using the above data (+ some other cool stuff, too!): click (HERE)[https://marketplace.visualstudio.com/items?itemName=WyattL.greyscript]!

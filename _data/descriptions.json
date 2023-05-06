@@ -120,7 +120,8 @@
         "used_ports": "Returns an array of ports that are being used in this router."
     },
     "NetSession": {
-        "dump_lib": "Returns the metalib associated with the remote service.\n\n\n\nFor example, connecting to a computer with the ssh service will return a metalib libssh object.\n\nIn the case of connecting to a router, it returns a metalib kernel_router object."
+        "dump_lib": "Returns the metalib associated with the remote service.\n\n\n\nFor example, connecting to a computer with the ssh service will return a metalib libssh object.\n\nIn the case of connecting to a router, it returns a metalib kernel_router object.",
+        "get_num_users": "Returns the number of user accounts on the target"
     },
     "File": {
         "chmod": "Modifies the file's permissions\n\n\n\nTakes a permissions string (e.g. u+wr) and optional recursive flag (int 0 or 1)\n\nIf the file is a folder and the recursive flag is 1, the permissions change will apply recursively, to all the files and folders inside the folder.\n\nReturns a string (empty on success, or with an error on failure)",

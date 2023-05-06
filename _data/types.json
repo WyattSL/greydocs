@@ -109,6 +109,7 @@
     "used_ports": "router",
     
     "dump_lib": "netsession",
+    "get_num_users": "netsession",
     
     "chmod": "file",
     "copy": "file",

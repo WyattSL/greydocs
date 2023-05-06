@@ -626,6 +626,11 @@
             {
                 "type": "MetaLib"
             }
+        ],
+        "get_num_users": [
+            {
+                "type": "Number"
+            }
         ]
     },
     "File": {

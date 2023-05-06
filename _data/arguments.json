@@ -678,7 +678,8 @@
         "used_ports": []
     },
     "NetSession": {
-        "dump_lib": []
+        "dump_lib": [],
+        "get_num_users": []
     },
     "File": {
         "chmod": [
