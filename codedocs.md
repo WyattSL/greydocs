@@ -66,4 +66,4 @@ permalink: /api
 {% endfor %}
 </ul>
 
-#### Checkout the Visual Studio Code extension for Greyscript: it offers autocomplete and hover documentation using the above data (+ some other cool stuff, too!): click (HERE)[https://marketplace.visualstudio.com/items?itemName=WyattL.greyscript]!
+#### Checkout the Visual Studio Code extension for Greyscript: it offers autocomplete and hover documentation using the above data (+ some other cool stuff, too!): click [HERE](https://marketplace.visualstudio.com/items?itemName=WyattL.greyscript)!
