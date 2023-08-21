@@ -983,6 +983,11 @@
                 "type": "String",
                 "name": "value",
                 "optional": false
+            },
+            {
+                "type": "Number",
+                "name": "replaceText",
+                "optional": true
             }
         ],
         "clear_screen": [],
