@@ -1,4 +1,21 @@
 {
+    "CTFEvent": {
+        "get_creator_name": [{
+            "type": "String"
+        }],
+        "get_description": [{
+            "type": "String"
+        }],
+        "get_mail_content": [{
+            "type": "String"
+        }],
+        "get_template": [{
+            "type": "String"
+        }],
+        "player_success": [{
+            "type": "Number"
+        }]
+    },
     "Blockchain": {
         "amount_mined": [{
             "type": "Number"
