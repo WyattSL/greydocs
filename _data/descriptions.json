@@ -1,4 +1,11 @@
 {
+    "CTFEvent": {
+        "get_creator_name": "Returns a string with the name of the mission creator.",
+        "get_description": "Returns a string with the description set from set_config",
+        "get_mail_content": "Returns a string with the content of the email that the player will receive upon accepting the mission.",
+        "get_template": "Returns a string with the public address of the rented server used as a template for the event.",
+        "player_success": "This function is to be called when the player successfully completes the mission. When it is completed, the player and the event creator will receive a reward. THe more players complete the mission, the higher the mission scores, and the higher the rewards are for the creator & player. Returns false if the player has not accepted the mission or has already completed it, true otherwise."
+    },
     "Blockchain": {
         "amount_mined": "Returns an int with the number of units of the coin that have been mined in total.",
         "coin_price": "Returns an int with the current unit value of the currency. In case of an error, a string is returned with the details.",
@@ -175,6 +182,7 @@
         "active_net_card": "Returns a string with the keyword WIFI if the current device is connected to a router by WiFi, if it is connected by cable a string with the keyword ETHERNET is returned."
     },
     "General": {
+        "get_ctf": "Gets the event created in the web browser. In case of success, it will return a CTFEvent type object, otherwise it will return a string with the error.",
         "get_custom_object": "Returns an empty Map object that can be used to share data back and forth with programs launched with shell.launch.",
         "mail_login": "Access the email account\n\nReturns a MetaMail type object if the login has been correct. In case of error, it returns a string",
         "typeof": "Returns a string with the type of the object passed as a parameter.",

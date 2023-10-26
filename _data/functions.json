@@ -1,4 +1,11 @@
 {
+    "CTFEvent": [
+        "get_creator_name",
+        "get_description",
+        "get_mail_content",
+        "get_template",
+        "player_success"
+    ],
     "Blockchain": [
         "amount_mined",
         "coin_price",
@@ -183,6 +190,7 @@
         "time",
         "typeof",
         "md5",
+        "get_ctf",
         "get_router",
         "get_switch",
         "get_shell",

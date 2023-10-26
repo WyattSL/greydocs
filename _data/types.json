@@ -1,6 +1,12 @@
 {
     "get_custom_objet": "general",
     
+    "get_creator_name": "ctfevent",
+    "get_description": "ctfevent",
+    "get_mail_content": "ctfevent",
+    "get_template": "ctfevent",
+    "player_success": "ctfevent",
+    
     "amount_mined": "blockchain",
     "coin_price": "blockchain",
     "create_wallet": "blockchain",
@@ -158,6 +164,7 @@
     "active_net_card": "computer",
     
     "typeof": "general",
+    "get_ctf": "general",
     "get_router": "general",
     "get_switch": "general",
     "nslookup": "general",

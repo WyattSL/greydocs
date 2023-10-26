@@ -1,5 +1,6 @@
 [
     "AptClient",
+    "CTFEvent",
     "Shell",
     "FtpShell",
     "Computer",

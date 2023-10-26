@@ -1,4 +1,11 @@
 {
+    "CTFEvent": {
+        "get_creator_name": [],
+        "get_description": [],
+        "get_mail_content": [],
+        "get_template": [],
+        "player_success": []
+    },
     "Blockchain": {
         "amount_mined": [
             {
@@ -941,6 +948,23 @@
         "active_net_card": []
     },
     "General": {
+        "get_ctf": [
+            {
+                "type": "String",
+                "name": "user",
+                "optional": false
+            },
+            {
+                "type": "String",
+                "name": "password",
+                "optional": false
+            },
+            {
+                "type": "String",
+                "name": "eventName",
+                "optional": false
+            }
+        ],
         "get_custom_object": [],
         "mail_login": [
             {

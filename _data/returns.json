@@ -901,6 +901,14 @@
         ]
     },
     "General": {
+        "get_ctf": [
+            {
+                "type": "CTFEvent"
+            },
+            {
+                "type": "String"
+            }
+        ],
         "md5": [
             {
                 "type": "String"
