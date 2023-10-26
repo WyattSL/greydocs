@@ -161,6 +161,7 @@
         "meta_info"
     ],
     "Computer": [
+        "get_name",
         "get_ports",
         "File",
         "create_folder",

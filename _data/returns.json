@@ -802,6 +802,11 @@
         ]
     },
     "Computer": {
+        "get_name": [
+            {
+                "type": "String"
+            }
+        ],
         "get_ports": [
             {
                 "type": "List",

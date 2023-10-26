@@ -159,6 +159,7 @@
         "meta_info": "Presumedly returns metadata information about a file.\n\n**This requires moderator permissions on Multiplayer, and is unavailable in Singleplayer.*"
     },
     "Computer": {
+        "get_name": "Get the hostname of the computer.",
         "local_ip": "Returns a string with the computer's local ip address.",
         "public_ip": "Returns a string with the computer's public ip address.",
         "get_ports": "Returns an array of active ports on the computer.",

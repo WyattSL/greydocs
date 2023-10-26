@@ -162,6 +162,7 @@
     "connect_ethernet": "computer",
     "network_gateway": "computer",
     "active_net_card": "computer",
+    "get_name": "computer",
     
     "typeof": "general",
     "get_ctf": "general",
