@@ -240,7 +240,9 @@
         "upper",
         "val",
         "values",
-        "to_int"
+        "to_int",
+        "is_match",
+        "matches"
     ],
     "List": [
         "hasIndex",

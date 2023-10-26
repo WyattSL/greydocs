@@ -1271,6 +1271,30 @@
         "false": []
     },
     "String": {
+        "matches": [
+            {
+                "type": "String",
+                "name": "pattern",
+                "optional": false
+            },
+            {
+                "type": "String",
+                "name": "regexOptions",
+                "optional": true
+            }
+        ],
+        "is_match": [
+            {
+                "type": "String",
+                "name": "pattern",
+                "optional": false
+            },
+            {
+                "type": "String",
+                "name": "regexOptions",
+                "optional": true
+            }
+        ],
         "remove": [
             {
                 "type": "String",
@@ -1309,6 +1333,11 @@
                 "type": "String",
                 "name": "delimiter",
                 "optional": false
+            },
+            {
+                "type": "String",
+                "name": "regexOptions",
+                "optional": true
             }
         ],
         "replace": [
@@ -1321,6 +1350,11 @@
                 "type": "String",
                 "name": "new",
                 "optional": false
+            },
+            {
+                "type": "String",
+                "name": "regexOptions",
+                "optional": true
             }
         ],
         "trim": [],

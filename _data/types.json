@@ -213,6 +213,8 @@
     "val": "string",
     "values": "string",
     "to_int": "string",
+    "is_match": "string",
+    "matches": "string",
     
     "push": "map",
     "pop": "map",

@@ -237,8 +237,8 @@
         "hasIndex": "Returns 1 if the index exists. Returns 0 otherise.",
         "indexOf": "Returns the first index of the provided input with the string. Optionally searches after begin. Returns Null if not found.",
         "lastIndexOf": "Returns the last index of the provided input with the string. Optionally searches after begin. Returns Null if not found.",
-        "split": "Returns a list object of substrings.",
-        "replace": "Returns the string with any instances of new replaced with old.",
+        "split": "Returns a list object of substrings. \n Uses regular expressions.",
+        "replace": "Returns the string with any instances of new replaced with old. \n Uses regular expressions.",
         "trim": "Returns the string stripped of any spacing at the beginning or end.",
         "indexes": "Returns a list object containing indexes of all characters in the string.",
         "code": "Returns the unicode code point of the first character in the string.",
@@ -247,7 +247,9 @@
         "upper": "Returns the uppercase string.",
         "val": "Converts the string to a float.",
         "values": "Returns a list object containing values of all characters in the string.",
-        "to_int": "Converts the string to a integer."
+        "to_int": "Converts the string to a integer.",
+        "is_match": "Returns a boolean dependent on if the string contains the pattern.",
+        "matches": "Returns a list of every match."
     },
     "List": {
         "hasIndex": "Returns 1 if the index exists. Returns 0 otherise.",

@@ -1241,6 +1241,17 @@
             {
                 "type": "Number"
             }
+        ],
+        "is_match": [
+            {
+                "type": "Number"
+            }
+        ],
+        "matches": [
+            {
+                "type": "List",
+                "subType": "String"
+            }
         ]
     },
     "List": {
