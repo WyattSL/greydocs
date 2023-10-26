@@ -123,7 +123,11 @@
     ],
     "NetSession": [
         "dump_lib",
-        "get_num_users"
+        "get_num_conn_gateway",
+        "get_num_portforward",
+        "get_num_users",
+        "is_any_active_user",
+        "is_root_active_user"
     ],
     "File": [
         "chmod",

@@ -627,7 +627,27 @@
                 "type": "MetaLib"
             }
         ],
+        "get_num_conn_gateway": [
+            {
+                "type": "Number"
+            }
+        ],
+        "get_num_portforward": [
+            {
+                "type": "Number"
+            }
+        ],
         "get_num_users": [
+            {
+                "type": "Number"
+            }
+        ],
+        "is_any_active_user": [
+            {
+                "type": "Number"
+            }
+        ],
+        "is_root_active_user": [
             {
                 "type": "Number"
             }
