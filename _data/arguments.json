@@ -236,7 +236,7 @@
                 "optional": false
             },
             {
-                "type": "string",
+                "type": "number",
                 "name": "amount",
                 "optional": false
             }
