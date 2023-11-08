@@ -235,8 +235,7 @@
         "ceil",
         "pi",
         "slice",
-        "get_custom_object",
-        ""
+        "get_custom_object"
     ],
     "String": [
         "remove",
