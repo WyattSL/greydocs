@@ -600,7 +600,7 @@
             {
                 "type": "Number",
                 "name": "port",
-                "optional": false
+                "optional": true
             }
         ],
         "rshell_client": [
