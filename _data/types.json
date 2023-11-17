@@ -121,6 +121,7 @@
     "is_any_active_user": "netsession",
     "is_root_active_user": "netsession",
     
+    "allow_import": "file",
     "chmod": "file",
     "copy": "file",
     "move": "file",

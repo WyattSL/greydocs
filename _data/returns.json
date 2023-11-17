@@ -671,6 +671,11 @@
         ]
     },
     "File": {
+        "allow_import": [
+            {
+                "type": "Number"
+            }
+        ],
         "chmod": [
             {
                 "type": "String"

@@ -239,6 +239,11 @@
                 "type": "number",
                 "name": "amount",
                 "optional": false
+            },
+            {
+                "type": "string",
+                "name": "subwalletUser",
+                "optional": false
             }
         ]
     },
@@ -693,6 +698,7 @@
         "is_root_active_user": []
     },
     "File": {
+        "allow_import": [],
         "chmod": [
             {
                 "type": "String",

@@ -137,6 +137,7 @@
         "is_root_active_user"
     ],
     "File": [
+        "allow_import",
         "chmod",
         "copy",
         "move",
