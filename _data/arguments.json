@@ -169,6 +169,13 @@
         ]
     },
     "Coin": {
+        "reset_password_coin": [
+            {
+                "type": "string",
+                "name": "newPassword",
+                "optional": false
+            }
+        ],
         "create_subwallet": [
             {
                 "type": "string",
@@ -955,6 +962,13 @@
         "active_net_card": []
     },
     "General": {
+        "reset_ctf_password": [
+            {
+                "type": "String",
+                "name": "new_password",
+                "optional": false
+            }
+        ],
         "get_ctf": [
             {
                 "type": "String",

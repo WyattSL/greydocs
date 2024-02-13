@@ -27,6 +27,7 @@
         "show_nodes": "Returns an int indicating the number of devices mining a specific coin for the same wallet. In case of error a string is returned with the details."
     },
     "Coin": {
+        "reset_password_coin": "Reset the password for this coin.",
         "create_subwallet": "Register a new account in the Coin that can be used to manage services such as stores. It is necessary to use the PIN that the owner of the wallet that wants to register has to provide.",
         "get_address": "Returns the configured address that will be shown to users who do not have the currency, indicating where they have to register.",
         "get_cycle_mining": "Returns an int with the number of hours (game time) that each mining cycle lasts. When a cycle ends, it is decided who gets the reward (1 coin) and the next cycle begins.",
@@ -184,6 +185,7 @@
         "active_net_card": "Returns a string with the keyword WIFI if the current device is connected to a router by WiFi, if it is connected by cable a string with the keyword ETHERNET is returned."
     },
     "General": {
+        "reset_ctf_password": "Reset your player password used for all CTFs.",
         "get_ctf": "Gets the event created in the web browser. In case of success, it will return a CTFEvent type object, otherwise it will return a string with the error.",
         "get_custom_object": "Returns an empty Map object that can be used to share data back and forth with programs launched with shell.launch.",
         "mail_login": "Access the email account\n\nReturns a MetaMail type object if the login has been correct. In case of error, it returns a string",
