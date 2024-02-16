@@ -246,11 +246,6 @@
                 "type": "number",
                 "name": "amount",
                 "optional": false
-            },
-            {
-                "type": "string",
-                "name": "subwalletUser",
-                "optional": false
             }
         ]
     },
