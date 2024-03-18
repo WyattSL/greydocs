@@ -768,8 +768,11 @@
         ],
         "delete": [
             {
-                "type": "Number"
-            }
+                "type": "String"
+            },
+            {
+                "type": "null"
+            },
         ],
         "get_folders": [
             {
