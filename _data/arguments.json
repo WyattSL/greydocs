@@ -1448,6 +1448,11 @@
                 "type": "String",
                 "name": "key",
                 "optional": true
+            },
+            {
+                "type": "Number",
+                "name": "ascending",
+                "optional": true
             }
         ],
         "pull": [],
