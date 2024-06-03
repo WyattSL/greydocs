@@ -29,6 +29,7 @@
         "show_nodes"
     ],
     "Coin": [
+        "reset_password_coin",
         "create_subwallet",
         "get_address",
         "get_cycle_mining",
@@ -186,6 +187,7 @@
         "public_ip"
     ],
     "General": [
+        "reset_ctf_password",
         "mail_login",
         "print",
         "wait",

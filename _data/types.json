@@ -27,6 +27,7 @@
     "sell_coin": "wallet",
     "show_nodes": "wallet",
 
+    "reset_password_coin": "coin",
     "create_subwallet": "coin",
     "get_address": "coin",
     "get_cycle_mining": "coin",
@@ -165,6 +166,7 @@
     "active_net_card": "computer",
     "get_name": "computer",
     
+    "reset_ctf_password": "general",
     "typeof": "general",
     "get_ctf": "general",
     "get_router": "general",

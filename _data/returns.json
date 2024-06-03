@@ -134,6 +134,17 @@
         ]
     },
     "Coin": {
+        "reset_password_coin": [
+            {
+                "type": "Number"
+            },
+            {
+                "type": "String"
+            },
+            {
+                "type": "null"
+            }
+        ],
         "create_subwallet": [
             {
                 "type": "null"
@@ -757,8 +768,11 @@
         ],
         "delete": [
             {
-                "type": "Number"
-            }
+                "type": "String"
+            },
+            {
+                "type": "null"
+            },
         ],
         "get_folders": [
             {
@@ -928,6 +942,14 @@
         ]
     },
     "General": {
+        "reset_ctf_password": [
+            {
+                "type": "String"
+            },
+            {
+                "type": "Number"
+            }
+        ],
         "get_ctf": [
             {
                 "type": "CTFEvent"
