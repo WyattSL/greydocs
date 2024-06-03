@@ -39,6 +39,16 @@
     "set_cycle_mining": "coin",
     "set_reward": "coin",
     "transaction": "coin",
+    
+    "check_password": "subwallet",
+    "delete": "subwallet",
+    "get_balance": "subwallet",
+    "get_info": "subwallet",
+    "get_user": "subwallet",
+    "last_transaction": "subwallet",
+    "mining": "subwallet",
+    "set_info": "subwallet",
+    "wallet_username": "subwallet",
 
     "install_service": "service",
     "start_service": "service",
@@ -134,16 +144,6 @@
     "set_group": "file",
     "size": "file",
     "meta_info": "file",
-    
-    "check_password": "subwallet",
-    "delete": "subwallet",
-    "get_balance": "subwallet",
-    "get_info": "subwallet",
-    "get_user": "subwallet",
-    "last_transaction": "subwallet",
-    "mining": "subwallet",
-    "set_info": "subwallet",
-    "wallet_username": "subwallet",
     
     "get_ports": "computer",
     "File": "computer",
