@@ -547,6 +547,9 @@
         "rshell_client": [
             {
                 "type": "Number"
+            },
+            {
+                "type": "String"
             }
         ],
         "rshell_server": [
