@@ -98,7 +98,14 @@
     "MetaLib": {
         "lib_name": "Returns the name of the library.",
         "version": "Returns the version of the library.",
-        "overflow": "Exploits the indicated vulnerability through the buffer overflow method.\nThe object returned can be of various types or even not return anything, so it is advisable to use the typeof method with the object returned.\nDepending on the result, it may be necessary to pass extra arguments so that the exploit runs correctly, for example in the case of a password change."
+        "overflow": "Exploits the indicated vulnerability through the buffer overflow method.\nThe object returned can be of various types or even not return anything, so it is advisable to use the typeof method with the object returned.\nDepending on the result, it may be necessary to pass extra arguments so that the exploit runs correctly, for example in the case of a password change.",
+        "debug_tools": "Returns the library in debug mode, as an object of type LibraryDebug. To obtain it, it is necessary to provide a valid username and password of a Neurobox engineer.",
+        "payload": "Returns a list with a single partial object of type Computer if potential zero-day vulnerabilities are found in the specified memory zone. If a file path is provided, its associated partial object of type File will also be added to the list. Additionally, if this file is a library, its metalib object will also be added to the returned list."
+    },
+    "DebugLibrary": {
+        "apply_patch": "Applies the patch with the corrected code to the text file specified in the path. Returns true if the patch has been applied successfully, false otherwise.",
+        "scan": "Scans the library in debug mode to find possible code errors that could lead to a vulnerability. If any potential issues are found, the associated code snippet is printed.",
+        "unit_testing": "Automated tests are conducted on the specified lines of code. If potential vulnerabilities are found due to existing errors in these lines, the partial objects that would be obtained by exploiting it are printed, as well as the memory zone affected by the new vulnerability and its details."
     },
     "Metaxploit": {
         "load": "Load the library in memory and return it as a metalib type if the process was successful.",
@@ -141,7 +148,7 @@
         "copy": "Copy the file to the specified path.\n\nOn success, returns 1 and the terminal outputs the copied file dialogue. On failure, returns either an error (string) such as permission denied or null (if File object not valid).",
         "move": "Move the file to the specified path.\n\nOn success, returns 1. On failure, returns either an error (string) such as permission denied or null (if File object not valid).",
         "rename": "Rename the file with the name provided.\n\nReturns a string (empty on success, or with an error on failure)",
-        "path": "Returns a string with the absolute path of the file.",
+        "path": "Returns a string with the absolute path of the file. If followSymlink is true, it will print the path of the symlink destination.",
         "parent": "Returns the folder that contains this file or null if the initial object is /.",
         "name": "Returns a string with the name of the file.",
         "get_content": "Returns a string with the contents of the text file.",
@@ -158,7 +165,21 @@
         "group": "Returns a string with the name of the group to which this file belongs.",
         "set_group": "Apply a group to this file. By default, the group does not apply recursively. To apply the group recursively, the optional parameter must be 1.\n\nReturns a string (empty on success, or with an error on failure)",
         "size": "Returns a string with the size of the file in bytes.",
+        "symlink": "Creates a symbolic link at the specified path.",
+        "is_symlink": "Returns true/false if the file object is a symbolic link.",
         "meta_info": "Presumedly returns metadata information about a file.\n\n**This requires moderator permissions on Multiplayer, and is unavailable in Singleplayer.*"
+    },
+    "TrafficNet": {
+        "camera_link_system": "Opens a traffic camera system window with controls to switch between cameras.",
+        "locate_vehicle": "Searches traffic cameras to see if a vehicle with the specified license plate can be identified. If true, the viewer will switch to the camera. If not, a string indicating an error is returned.",
+        "next_camera": "Switches to the next camera.",
+        "prev_camera": "Switches to the previous camera.",
+        "traffic_light_config": "[Work in progress] - Wild speculation, but maybe this will let you kill NPCs, or at least delay them from reaching work?"
+    },
+    "SmartAppliance": {
+        "model": "Returns the model of the appliance as a string.",
+        "override_settings": "Overrides the power and temp. values of the appliance. Returns true if successful, otherwise returning a string as an error.",
+        "set_alarm": "Activates or deactivates the sound alarm that indicates if there is any malfunction in the appliance."
     },
     "Computer": {
         "get_name": "Get the hostname of the computer.",

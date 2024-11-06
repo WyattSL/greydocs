@@ -17,9 +17,17 @@ permalink: /api
     {% capture argdata %}
         {% for a in args %}
             {% if a.optional %}
+                {% if a.subType %}
+?{{ a.name }}:{{ a.type }}[{{ a.subType }}], 
+                {% else %}                
 ?{{ a.name }}:{{ a.type }}, 
+                {% endif %}
             {% else %}
+                {% if a.subType %}
+{{ a.name }}:{{ a.type }}[{{ a.subType }}], 
+                {% else %}                
 {{ a.name }}:{{ a.type }}, 
+                {% endif %}
             {% endif %}
         {% endfor %}
     {% endcapture %}

@@ -588,6 +588,30 @@
                 "name": "optArgs",
                 "optional": true
             }
+        ],
+        "payload": [
+            {
+                "type": "String",
+                "name": "memoryZone",
+                "optional": false
+            },
+            {
+                "type": "String",
+                "name": "path",
+                "optional": false
+            }
+        ],
+        "debug_tools": [
+            {
+                "name": "user",
+                "type": "String",
+                "optional": false
+            },
+            {
+                "name": "password",
+                "type": "String",
+                "optional": false
+            }
         ]
     },
     "Metaxploit": {
@@ -744,7 +768,13 @@
                 "optional": false
             }
         ],
-        "path": [],
+        "path": [
+            {
+                "type": "Number",
+                "name": "followSymlink",
+                "optional": true
+            }
+        ],
         "parent": [],
         "name": [],
         "get_content": [],
@@ -794,7 +824,73 @@
             }
         ],
         "size": [],
+        "symlink": [
+            {
+                "type": "String",
+                "name": "path",
+                "optional": false
+            },
+            {
+                "type": "String",
+                "name": "file_new_name",
+                "optional": false
+            }
+        ],
+        "is_symlink": [],
         "meta_info": []
+    },
+    "TrafficNet": {
+        "camera_link_system": [],
+        "locate_vehicle": [
+            {
+                "type": "String",
+                "name": "licensePlate",
+                "optional": false
+            }
+        ],
+        "next_camera": [],
+        "prev_camera": [],
+        "traffic_light_config": []
+    },
+    "SmartAppliance": {
+        "model": [],
+        "override_settings": [
+            {
+                "type": "Number",
+                "name": "power",
+                "optional": false
+            },
+            {
+                "type": "Number",
+                "name": "temperature",
+                "optional": false
+            }
+        ],
+        "set_alarm": [
+            {
+                "type": "Number",
+                "name": "enable",
+                "optional": false
+            }
+        ]
+    },
+    "DebugLibrary": {
+        "apply_patch": [
+            {
+                "name": "path",
+                "type": "String",
+                "optional": false
+            }
+        ],
+        "scan": [],
+        "unit_testing": [
+            {
+                "name": "errorLines",
+                "type": "List",
+                "subType": "Number",
+                "optional": false
+            }
+        ]
     },
     "Computer": {
         "get_name": [],

@@ -100,7 +100,9 @@
     "MetaLib": [
         "lib_name",
         "version",
-        "overflow"
+        "overflow",
+        "payload",
+        "debug_tools"
     ],
     "Metaxploit": [
         "load",
@@ -160,7 +162,26 @@
         "group",
         "set_group",
         "size",
-        "meta_info"
+        "meta_info",
+        "symlink",
+        "is_symlink"
+    ],
+    "TrafficNet": [
+        "camera_link_system",
+        "locate_vehicle",
+        "next_camera",
+        "prev_camera",
+        "traffic_light_config"
+    ],
+    "DebugLibrary": [
+        "apply_patch",
+        "scan",
+        "unit_testing"
+    ],
+    "SmartAppliance": [
+        "model",
+        "override_settings",
+        "set_alarm"
     ],
     "Computer": [
         "get_name",

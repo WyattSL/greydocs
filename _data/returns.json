@@ -823,6 +823,45 @@
             { "type": "Any" }
         ]
     },
+    "TrafficNet": {
+        "camera_link_system": [
+            { "type": "Number" },
+            { "type": "String" }
+        ],
+        "locate_vehicle": [
+            { "type": "Number" },
+            { "type": "String" }
+        ],
+        "next_camera": [
+            { "type": "Number" },
+            { "type": "String" }
+        ],
+        "prev_camera": [
+            { "type": "Number" },
+            { "type": "String" }
+        ],
+        "traffic_light_config": [
+            { "type": "String" }
+        ]
+    },
+    "SmartAppliance": {
+        "model": [
+            { "type": "String" }
+        ],
+        "override_settings": [
+            { "type": "Number" },
+            { "type": "String" }
+        ],
+        "set_alarm": [
+            { "type": "Number" },
+            { "type": "String" }
+        ]
+    },
+    "DebugLibrary": {
+        "apply_patch": [{ "type": "String" }],
+        "scan": [{ "type": "String" }],
+        "unit_testing": [{ "type": "String" }]
+    },
     "Computer": {
         "get_name": [
             {

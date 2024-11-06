@@ -20,5 +20,8 @@
     "Wallet",
     "SubWallet",
     "Coin",
-    "Service"
+    "Service",
+    "TrafficNet",
+    "DebugLibrary",
+    "SmartAppliance"
 ]

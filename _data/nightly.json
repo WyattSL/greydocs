@@ -1,1 +1,17 @@
-[]
+[
+    "File.symlink",
+    "File.is_symlink",
+    "MetaLib.payload",
+    "MetaLib.debug_tools",
+    "DebugLibrary.scan",
+    "DebugLibrary.apply_patch",
+    "DebugLibrary.unit_testing",
+    "SmartAppliance.model",
+    "SmartAppliance.override_settings",
+    "SmartAppliance.set_alarm",
+    "TrafficNet.camera_link_system",
+    "TrafficNet.locate_vehicle",
+    "TrafficNet.next_camera",
+    "TrafficNet.prev_camera",
+    "TrafficNet.traffic_light_config"
+]
