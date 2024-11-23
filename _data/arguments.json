@@ -1247,6 +1247,18 @@
                 "optional": false
             }
         ],
+        "log": [
+            {
+                "type": "Number",
+                "name": "num",
+                "optional": false
+            },
+            {
+                "type": "Number",
+                "name": "base",
+                "optional": true
+            }
+        ],
         "abs": [
             {
                 "type": "Number",

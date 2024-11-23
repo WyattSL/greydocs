@@ -194,6 +194,7 @@
     "is_valid_ip": "general",
     "bitwise": "general",
     
+    "log": "general",
     "abs": "general",
     "acos": "general",
     "asin": "general",
