@@ -241,6 +241,7 @@
         "import_code",
         "hash",
         "launch_path",
+        "log",
         "abs",
         "acos",
         "asin",
