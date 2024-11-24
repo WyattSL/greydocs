@@ -1173,6 +1173,11 @@
                 "type": "Number"
             }
         ],
+        "bitXor": [
+            {
+                "type": "Number"
+            }
+        ],
         "hash": [
             {
                 "type": "Number"

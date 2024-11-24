@@ -1271,6 +1271,18 @@
                 "optional": false
             }
         ],
+        "bitXor": [
+            {
+                "type": "Number",
+                "name": "num1",
+                "optional": false
+            },
+            {
+                "type": "Number",
+                "name": "num2",
+                "optional": false
+            }
+        ],
         "log": [
             {
                 "type": "Number",

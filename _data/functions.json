@@ -238,6 +238,7 @@
         "bitwise",
         "bitAnd",
         "bitOr",
+        "bitXor",
         "clear_screen",
         "exit",
         "import_code",

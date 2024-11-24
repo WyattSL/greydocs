@@ -237,6 +237,7 @@
         "bitwise": "Bitwise operators are used for manipulating data at the bit level.\nBitwise operates on one or more bit patterns or binary numerals at the level of their individual bits. \nThey are used in numerical computations to make the calculation process faster.\nThe operator argument accepts the following operators:\n&, |, ^, <<, >>, >>>",
         "bitAnd": "Returns the bitwise AND operation of the provided inputs.",
         "bitOr": "Returns the bitwise OR operation of the provided inputs.",
+        "bitXor": "Returns the bitwise OR operation of the provided inputs.",
         "hash": "Returns a integer that is \"relatively unique\" to the given value. In the case of strings, the hash is case-sensitive. In the case of a list r map, the hash combines the hash values of all elements.",
         "launch_path": "Returns the path of the program that launched this program.",
         "log": "Returns the logarithm of the provided input to the specified base.",

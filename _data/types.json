@@ -195,6 +195,7 @@
     "bitwise": "general",
     "bitAnd": "general",
     "bitOr": "general",
+    "bitXor": "general",
     
     "log": "general",
     "abs": "general",
