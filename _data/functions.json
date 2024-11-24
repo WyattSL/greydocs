@@ -236,6 +236,7 @@
         "user_input",
         "include_lib",
         "bitwise",
+        "bitAnd",
         "clear_screen",
         "exit",
         "import_code",

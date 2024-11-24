@@ -1163,6 +1163,11 @@
                 "type": "Number"
             }
         ],
+        "bitAnd": [
+            {
+                "type": "Number"
+            }
+        ],
         "hash": [
             {
                 "type": "Number"
