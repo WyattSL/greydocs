@@ -1168,6 +1168,11 @@
                 "type": "Number"
             }
         ],
+        "bitOr": [
+            {
+                "type": "Number"
+            }
+        ],
         "hash": [
             {
                 "type": "Number"

@@ -237,6 +237,7 @@
         "include_lib",
         "bitwise",
         "bitAnd",
+        "bitOr",
         "clear_screen",
         "exit",
         "import_code",
