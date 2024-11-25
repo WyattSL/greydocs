@@ -1247,6 +1247,42 @@
                 "optional": false
             }
         ],
+        "bitAnd": [
+            {
+                "type": "Number",
+                "name": "num1",
+                "optional": false
+            },
+            {
+                "type": "Number",
+                "name": "num2",
+                "optional": false
+            }
+        ],
+        "bitOr": [
+            {
+                "type": "Number",
+                "name": "num1",
+                "optional": false
+            },
+            {
+                "type": "Number",
+                "name": "num2",
+                "optional": false
+            }
+        ],
+        "bitXor": [
+            {
+                "type": "Number",
+                "name": "num1",
+                "optional": false
+            },
+            {
+                "type": "Number",
+                "name": "num2",
+                "optional": false
+            }
+        ],
         "log": [
             {
                 "type": "Number",
@@ -1420,7 +1456,47 @@
             }
         ],
         "true": [],
-        "false": []
+        "false": [],
+        "lan_ip": [
+            {
+                "type": "Computer",
+                "name": "computer",
+                "optional": false
+            }
+        ],
+        "public_ip_pc": [
+            {
+                "type": "Computer",
+                "name": "computer",
+                "optional": false
+            }
+        ],
+        "delete_mail": [
+            {
+                "type": "MetaMail",
+                "name": "metamail",
+                "optional": false
+            },
+            {
+                "type": "String",
+                "name": "mail_id",
+                "optional": false
+            }
+        ],
+        "delete_subwallet": [
+            {
+                "type": "SubWallet",
+                "name": "subwallet",
+                "optional": false
+            }
+        ],
+        "get_balance_subwallet": [
+            {
+                "type": "SubWallet",
+                "name": "subwallet",
+                "optional": false
+            }
+        ]
     },
     "String": {
         "matches": [
@@ -1509,6 +1585,18 @@
                 "optional": true
             }
         ],
+        "insert": [
+            {
+                "type": "Number",
+                "name": "index",
+                "optional": false
+            },
+            {
+                "type": "Any",
+                "name": "value",
+                "optional": false
+            }
+        ],
         "trim": [],
         "indexes": [],
         "code": [],
@@ -1521,6 +1609,18 @@
     },
     "List": {
         "push": [
+            {
+                "type": "Any",
+                "name": "value",
+                "optional": false
+            }
+        ],
+        "insert": [
+            {
+                "type": "Number",
+                "name": "index",
+                "optional": false
+            },
             {
                 "type": "Any",
                 "name": "value",

@@ -192,7 +192,15 @@
     "current_date": "general",
     "is_lan_ip": "general",
     "is_valid_ip": "general",
+    "lan_ip": "general",
+    "public_ip_pc": "general",
+    "delete_mail": "general",
+    "delete_subwallet": "general",
+    "get_balance_subwallet": "general",
     "bitwise": "general",
+    "bitAnd": "general",
+    "bitOr": "general",
+    "bitXor": "general",
     
     "log": "general",
     "abs": "general",
@@ -237,6 +245,7 @@
     "shuffle": "map",
     "sum": "map",
     
+    "insert": "list",
     "sort": "list",
     "join": "list",
     "reverse": "list"

@@ -1163,6 +1163,21 @@
                 "type": "Number"
             }
         ],
+        "bitAnd": [
+            {
+                "type": "Number"
+            }
+        ],
+        "bitOr": [
+            {
+                "type": "Number"
+            }
+        ],
+        "bitXor": [
+            {
+                "type": "Number"
+            }
+        ],
         "hash": [
             {
                 "type": "Number"
@@ -1282,6 +1297,40 @@
             {
                 "type": "Number"
             }
+        ],
+        "lan_ip": [
+            {
+                "type": "String"
+            }
+        ],
+        "public_ip_pc": [
+            {
+                "type": "String"
+            }
+        ],
+        "delete_mail": [
+            {
+                "type": "Number"
+            },
+            {
+                "type": "String"
+            }
+        ],
+        "delete_subwallet": [
+            {
+                "type": "Number"
+            },
+            {
+                "type": "String"
+            }
+        ],
+        "get_balance_subwallet": [
+            {
+                "type": "Number"
+            },
+            {
+                "type": "String"
+            }
         ]
     },
     "String": {
@@ -1376,6 +1425,11 @@
                 "type": "List",
                 "subType": "String"
             }
+        ],
+        "insert": [
+            {
+                "type": "String"
+            }
         ]
     },
     "List": {
@@ -1399,7 +1453,12 @@
         ],
         "push": [
             {
-                "type": "null"
+                "type": "List"
+            }
+        ],
+        "insert": [
+            {
+                "type": "List"
             }
         ],
         "pop": [
@@ -1472,7 +1531,7 @@
         ],
         "push": [
             {
-                "type": "null"
+                "type": "Map"
             }
         ],
         "pop": [
