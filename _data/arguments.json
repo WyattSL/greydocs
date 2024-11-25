@@ -1470,6 +1470,18 @@
                 "name": "computer",
                 "optional": false
             }
+        ],
+        "delete_mail": [
+            {
+                "type": "MetaMail",
+                "name": "metamail",
+                "optional": false
+            },
+            {
+                "type": "String",
+                "name": "mail_id",
+                "optional": false
+            }
         ]
     },
     "String": {

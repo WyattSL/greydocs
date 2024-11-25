@@ -1307,6 +1307,14 @@
             {
                 "type": "String"
             }
+        ],
+        "delete_mail": [
+            {
+                "type": "Number"
+            },
+            {
+                "type": "String"
+            }
         ]
     },
     "String": {

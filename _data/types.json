@@ -194,6 +194,7 @@
     "is_valid_ip": "general",
     "lan_ip": "general",
     "public_ip_pc": "general",
+    "delete_mail": "general",
     "bitwise": "general",
     "bitAnd": "general",
     "bitOr": "general",
