@@ -1456,7 +1456,14 @@
             }
         ],
         "true": [],
-        "false": []
+        "false": [],
+        "lan_ip": [
+            {
+                "type": "Computer",
+                "name": "computer",
+                "optional": false
+            }
+        ]
     },
     "String": {
         "matches": [

@@ -1297,6 +1297,11 @@
             {
                 "type": "Number"
             }
+        ],
+        "lan_ip": [
+            {
+                "type": "String"
+            }
         ]
     },
     "String": {

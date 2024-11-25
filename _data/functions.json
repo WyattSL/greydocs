@@ -263,7 +263,8 @@
         "ceil",
         "pi",
         "slice",
-        "get_custom_object"
+        "get_custom_object",
+        "lan_ip"
     ],
     "String": [
         "remove",
