@@ -196,6 +196,7 @@
     "public_ip_pc": "general",
     "delete_mail": "general",
     "delete_subwallet": "general",
+    "get_balance_subwallet": "general",
     "bitwise": "general",
     "bitAnd": "general",
     "bitOr": "general",

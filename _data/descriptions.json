@@ -275,7 +275,8 @@
         "lan_ip": "Same as Computer.local_ip, but works exclusively with Computer and not Router",
         "public_ip_pc": "Same as Computer.public_ip, but works exclusively with Computer and not Router",
         "delete_mail": "Same as MetaMail.delete, but works exclusively with MetaMail and no other types",
-        "delete_subwallet": "Same as SubWallet.delete, but works exclusively with SubWallet and no other types"
+        "delete_subwallet": "Same as SubWallet.delete, but works exclusively with SubWallet and no other types",
+        "get_balance_subwallet": "Same as SubWallet.get_balance, but works exclusively with SubWallet and not Wallet"
     },
     "String": {
         "remove": "Returns the string without the first occurrence of the provided substring.",

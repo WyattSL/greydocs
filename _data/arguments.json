@@ -1489,6 +1489,13 @@
                 "name": "subwallet",
                 "optional": false
             }
+        ],
+        "get_balance_subwallet": [
+            {
+                "type": "SubWallet",
+                "name": "subwallet",
+                "optional": false
+            }
         ]
     },
     "String": {

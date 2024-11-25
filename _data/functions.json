@@ -267,7 +267,8 @@
         "lan_ip",
         "public_ip_pc",
         "delete_mail",
-        "delete_subwallet"
+        "delete_subwallet",
+        "get_balance_subwallet"
     ],
     "String": [
         "remove",
