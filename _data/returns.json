@@ -1419,7 +1419,7 @@
         ],
         "push": [
             {
-                "type": "null"
+                "type": "List"
             }
         ],
         "insert": [
@@ -1497,7 +1497,7 @@
         ],
         "push": [
             {
-                "type": "null"
+                "type": "Map"
             }
         ],
         "pop": [
