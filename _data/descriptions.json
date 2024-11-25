@@ -272,7 +272,8 @@
         "time": "Returns the number of seconds since the program execution began.",
         "true": "A constant value of 1. Easy for return types or the use in an if statement.",
         "false": "A constant value of 0. Easy for return types or the use in an if statement.",
-        "lan_ip": "Same as Computer.local_ip, but works exclusively with Computer and not Router"
+        "lan_ip": "Same as Computer.local_ip, but works exclusively with Computer and not Router",
+        "public_ip_pc": "Same as Computer.public_ip, but works exclusively with Computer and not Router"
     },
     "String": {
         "remove": "Returns the string without the first occurrence of the provided substring.",

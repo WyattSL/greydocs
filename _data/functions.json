@@ -264,7 +264,8 @@
         "pi",
         "slice",
         "get_custom_object",
-        "lan_ip"
+        "lan_ip",
+        "public_ip_pc"
     ],
     "String": [
         "remove",

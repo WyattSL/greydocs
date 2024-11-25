@@ -1463,6 +1463,13 @@
                 "name": "computer",
                 "optional": false
             }
+        ],
+        "public_ip_pc": [
+            {
+                "type": "Computer",
+                "name": "computer",
+                "optional": false
+            }
         ]
     },
     "String": {

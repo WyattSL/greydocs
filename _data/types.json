@@ -193,6 +193,7 @@
     "is_lan_ip": "general",
     "is_valid_ip": "general",
     "lan_ip": "general",
+    "public_ip_pc": "general",
     "bitwise": "general",
     "bitAnd": "general",
     "bitOr": "general",

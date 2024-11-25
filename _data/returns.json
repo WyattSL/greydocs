@@ -1302,6 +1302,11 @@
             {
                 "type": "String"
             }
+        ],
+        "public_ip_pc": [
+            {
+                "type": "String"
+            }
         ]
     },
     "String": {
