@@ -1545,6 +1545,18 @@
                 "optional": true
             }
         ],
+        "insert": [
+            {
+                "type": "Number",
+                "name": "index",
+                "optional": false
+            },
+            {
+                "type": "Any",
+                "name": "value",
+                "optional": false
+            }
+        ],
         "trim": [],
         "indexes": [],
         "code": [],
@@ -1557,6 +1569,18 @@
     },
     "List": {
         "push": [
+            {
+                "type": "Any",
+                "name": "value",
+                "optional": false
+            }
+        ],
+        "insert": [
+            {
+                "type": "Number",
+                "name": "index",
+                "optional": false
+            },
             {
                 "type": "Any",
                 "name": "value",

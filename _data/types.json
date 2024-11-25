@@ -240,6 +240,7 @@
     "shuffle": "map",
     "sum": "map",
     
+    "insert": "list",
     "sort": "list",
     "join": "list",
     "reverse": "list"

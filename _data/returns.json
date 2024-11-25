@@ -1391,6 +1391,11 @@
                 "type": "List",
                 "subType": "String"
             }
+        ],
+        "insert": [
+            {
+                "type": "String"
+            }
         ]
     },
     "List": {
@@ -1415,6 +1420,11 @@
         "push": [
             {
                 "type": "null"
+            }
+        ],
+        "insert": [
+            {
+                "type": "List"
             }
         ],
         "pop": [
