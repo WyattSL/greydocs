@@ -1315,6 +1315,14 @@
             {
                 "type": "String"
             }
+        ],
+        "delete_subwallet": [
+            {
+                "type": "Number"
+            },
+            {
+                "type": "String"
+            }
         ]
     },
     "String": {

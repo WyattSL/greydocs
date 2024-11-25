@@ -266,7 +266,8 @@
         "get_custom_object",
         "lan_ip",
         "public_ip_pc",
-        "delete_mail"
+        "delete_mail",
+        "delete_subwallet"
     ],
     "String": [
         "remove",

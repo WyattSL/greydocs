@@ -195,6 +195,7 @@
     "lan_ip": "general",
     "public_ip_pc": "general",
     "delete_mail": "general",
+    "delete_subwallet": "general",
     "bitwise": "general",
     "bitAnd": "general",
     "bitOr": "general",

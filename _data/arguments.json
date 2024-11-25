@@ -1482,6 +1482,13 @@
                 "name": "mail_id",
                 "optional": false
             }
+        ],
+        "delete_subwallet": [
+            {
+                "type": "SubWallet",
+                "name": "subwallet",
+                "optional": false
+            }
         ]
     },
     "String": {
