@@ -282,7 +282,7 @@
         "remove": "Returns the string without the first occurrence of the provided substring.",
         "hasIndex": "Returns 1 if the index exists. Returns 0 otherise.",
         "indexOf": "Returns the first index of the provided input with the string. Optionally searches after begin. Returns Null if not found.",
-        "lastIndexOf": "Returns the last index of the provided input with the string. Optionally searches after begin. Returns Null if not found.",
+        "lastIndexOf": "Returns the last index of the provided input with the string. Returns -1 if not found.",
         "insert": "Inserts the provided value into the specified index on the string. Returns the updated string.",
         "split": "Returns a list object of substrings. \n Uses regular expressions.",
         "replace": "Returns the string with any instances of new replaced with old. \n Uses regular expressions.",
