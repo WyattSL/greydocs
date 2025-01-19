@@ -1208,6 +1208,13 @@
         ],
         "program_path": [],
         "current_path": [],
+        "parent_path": [
+            {
+                "type": "String",
+                "name": "path",
+                "optional": false
+            }
+        ],
         "format_columns": [
             {
                 "type": "String",
