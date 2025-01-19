@@ -1081,6 +1081,12 @@
             },
             {
                 "type": "AptClient"
+            },
+            {
+                "type": "Blockchain"
+            },
+            {
+                "type": "Service"
             }
         ],
         "import_code": [
