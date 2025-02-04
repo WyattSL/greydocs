@@ -1,8 +1,8 @@
 [
     "File.symlink",
     "File.is_symlink",
-    "MetaLib.payload",
     "MetaLib.debug_tools",
+    "DebugLibrary.payload",
     "DebugLibrary.scan",
     "DebugLibrary.apply_patch",
     "DebugLibrary.unit_testing",
