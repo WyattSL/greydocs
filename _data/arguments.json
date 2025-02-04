@@ -589,18 +589,6 @@
                 "optional": true
             }
         ],
-        "payload": [
-            {
-                "type": "String",
-                "name": "memoryZone",
-                "optional": false
-            },
-            {
-                "type": "String",
-                "name": "path",
-                "optional": false
-            }
-        ],
         "debug_tools": [
             {
                 "name": "user",
@@ -875,6 +863,18 @@
         ]
     },
     "DebugLibrary": {
+        "payload": [
+            {
+                "type": "String",
+                "name": "memoryZone",
+                "optional": false
+            },
+            {
+                "type": "String",
+                "name": "path",
+                "optional": false
+            }
+        ],
         "apply_patch": [
             {
                 "name": "path",
