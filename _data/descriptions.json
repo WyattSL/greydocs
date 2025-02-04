@@ -75,7 +75,7 @@
         "add_repo": "Add the repository address in the /etc/apt/sources.txt file\n\nReturns empty string on success, or a string (containing an error) on failure.",
         "del_repo": "Remove the repository address in the /etc/apt/sources.txt file.\n\nReturns empty string on success, or a string (containing an error) on failure.",
         "install": "Install the program or library from a remote repository listed in /etc/apt/sources.txt.\nUnless a path is specified, the program installs in /lib if it is a library or in /bin otherwise\n\nReturns a string (containing an error) on failure or empty on success.",
-        "check_upgrade": "Check if there is a newer version of the file in the repository.\n\nReturns a string (containing an error) on failure or is empty when succesful."
+        "check_upgrade": "Check if there is a newer version of the file in the repository.\n\nReturns 1 or 0 if an update is or is not found respectively, or a string (containing an error) on failure."
     },
     "MetaMail": {
         "delete": "Delete the mail that corresponds with mail_ID.\n\nReturns 1 if it was removed successfully or a string with the error message.",
