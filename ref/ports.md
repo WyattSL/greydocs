@@ -20,4 +20,4 @@ permalink: /ref/ports
 | 6667   | Chat | Never        | Yes |
 | 37777  | CCTV | CCTV Cameras | No |
 | 1883   | SmartAppliance | Smart Appliances | No |
-| 5555   | ADB  | Smart Phones | No |
+| 5555   | ADB  | Never | No |
