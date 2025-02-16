@@ -19,3 +19,5 @@ permalink: /ref/ports
 | 3308   | Employees (SQL) | Random | No |
 | 6667   | Chat | Never        | Yes |
 | 37777  | CCTV | CCTV Cameras | No |
+| 1883   | SmartAppliance | Smart Appliances | No |
+| 5555   | ADB  | Smart Phones | No |
