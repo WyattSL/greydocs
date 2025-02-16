@@ -101,7 +101,6 @@
         "lib_name",
         "version",
         "overflow",
-        "payload",
         "debug_tools"
     ],
     "Metaxploit": [
@@ -174,6 +173,7 @@
         "traffic_light_config"
     ],
     "DebugLibrary": [
+        "payload",
         "apply_patch",
         "scan",
         "unit_testing"

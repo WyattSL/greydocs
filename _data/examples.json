@@ -11,5 +11,10 @@
             "myFunc = function()\n    print(\"Hello World\")\nend function",
             "myFunc = function(data)\n    print(data)\nend function"
         ]
+    },
+    "AptClient": {
+        "check_upgrade": [
+            "aptclient = include_lib(\"/lib/aptclient.so\")\nif aptclient.check_upgrade(\"/lib/metaxploit.so\") == 1 then\n    aptclient.install(\"metaxploit.so\", \"/lib\")\nend if"
+        ]
     }
 }

@@ -387,6 +387,9 @@
         ],
         "check_upgrade": [
             {
+                "type": "Number"
+            },
+            {
                 "type": "String"
             }
         ]

@@ -75,7 +75,7 @@
         "add_repo": "Add the repository address in the /etc/apt/sources.txt file\n\nReturns empty string on success, or a string (containing an error) on failure.",
         "del_repo": "Remove the repository address in the /etc/apt/sources.txt file.\n\nReturns empty string on success, or a string (containing an error) on failure.",
         "install": "Install the program or library from a remote repository listed in /etc/apt/sources.txt.\nUnless a path is specified, the program installs in /lib if it is a library or in /bin otherwise\n\nReturns a string (containing an error) on failure or empty on success.",
-        "check_upgrade": "Check if there is a newer version of the file in the repository.\n\nReturns a string (containing an error) on failure or is empty when succesful."
+        "check_upgrade": "Check if there is a newer version of the file in the repository.\n\nReturns 1 or 0 if an update is or is not found respectively, or a string (containing an error) on failure."
     },
     "MetaMail": {
         "delete": "Delete the mail that corresponds with mail_ID.\n\nReturns 1 if it was removed successfully or a string with the error message.",
@@ -99,10 +99,10 @@
         "lib_name": "Returns the name of the library.",
         "version": "Returns the version of the library.",
         "overflow": "Exploits the indicated vulnerability through the buffer overflow method.\nThe object returned can be of various types or even not return anything, so it is advisable to use the typeof method with the object returned.\nDepending on the result, it may be necessary to pass extra arguments so that the exploit runs correctly, for example in the case of a password change.",
-        "debug_tools": "Returns the library in debug mode, as an object of type LibraryDebug. To obtain it, it is necessary to provide a valid username and password of a Neurobox engineer.",
-        "payload": "Returns a list with a single partial object of type Computer if potential zero-day vulnerabilities are found in the specified memory zone. If a file path is provided, its associated partial object of type File will also be added to the list. Additionally, if this file is a library, its metalib object will also be added to the returned list."
+        "debug_tools": "Returns the library in debug mode, as an object of type LibraryDebug. To obtain it, it is necessary to provide a valid username and password of a Neurobox engineer."
     },
     "DebugLibrary": {
+        "payload": "Returns a list with a single partial object of type Computer if potential zero-day vulnerabilities are found in the specified memory zone. If a file path is provided, its associated partial object of type File will also be added to the list. Additionally, if this file is a library, its metalib object will also be added to the returned list.",
         "apply_patch": "Applies the patch with the corrected code to the text file specified in the path. Returns true if the patch has been applied successfully, false otherwise.",
         "scan": "Scans the library in debug mode to find possible code errors that could lead to a vulnerability. If any potential issues are found, the associated code snippet is printed.",
         "unit_testing": "Automated tests are conducted on the specified lines of code. If potential vulnerabilities are found due to existing errors in these lines, the partial objects that would be obtained by exploiting it are printed, as well as the memory zone affected by the new vulnerability and its details."
