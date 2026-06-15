@@ -24,7 +24,7 @@ declare namespace GreyHack {
     get_template(): string;
 
     /**
-     * This function is to be called when the player successfully completes the mission. When it is completed, the player and the event creator will receive a reward. THe more players complete the mission, the higher the mission scores, and the higher the rewards are for the creator & player. Returns false if the player has not accepted the mission or has already completed it, true otherwise.
+     * This function is to be called when the player successfully completes the mission. When it is completed, the player and the event creator will receive a reward. The more players complete the mission, the higher the mission scores, and the higher the rewards are for the creator & player. Returns false if the player has not accepted the mission or has already completed it, true otherwise.
      */
     player_success(): boolean;
   }
@@ -1165,7 +1165,7 @@ declare namespace GreyHack {
     import_code(absolutePath: string): null;
 
     /**
-     * Returns a integer that is "relatively unique" to the given value. In the case of strings, the hash is case-sensitive. In the case of a list r map, the hash combines the hash values of all elements.
+     * Returns a integer that is "relatively unique" to the given value. In the case of strings, the hash is case-sensitive. In the case of a list or map, the hash combines the hash values of all elements.
      */
     hash(obj: string): number;
 
@@ -1307,7 +1307,7 @@ declare namespace GreyHack {
     remove(subString: string): string;
 
     /**
-     * Returns 1 if the index exists. Returns 0 otherise.
+     * Returns 1 if the index exists. Returns 0 otherwise.
      */
     hasIndex(index: number): number;
 
@@ -1396,7 +1396,7 @@ declare namespace GreyHack {
 
   interface List {
     /**
-     * Returns 1 if the index exists. Returns 0 otherise.
+     * Returns 1 if the index exists. Returns 0 otherwise.
      */
     hasIndex(index: number): number;
 
@@ -1473,7 +1473,7 @@ declare namespace GreyHack {
 
   interface Map {
     /**
-     * Returns 1 if the index exists. Returns 0 otherise.
+     * Returns 1 if the index exists. Returns 0 otherwise.
      */
     hasIndex(key: any): number;
 

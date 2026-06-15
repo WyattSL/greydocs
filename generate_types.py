@@ -93,7 +93,8 @@ def normalize_type_name(name: str, prefer_primitive: bool = True) -> str:
 
 
 def escape_jsdoc(text: str) -> str:
-    return text.replace("*/", "*\\/")
+    cleaned = text.replace("otherise", "otherwise").replace("list r map", "list or map").replace("THe", "The")
+    return cleaned.replace("*/", "*\\/")
 
 
 def sanitize_identifier(name: str) -> str:
