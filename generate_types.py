@@ -10,6 +10,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 DATA_DIR = ROOT / "_data"
 OUTPUT_FILE = ROOT / "types" / "greyscript.d.ts"
+RETURN_OVERRIDES = {
+    ("CTFEvent", "player_success"): "boolean",
+    ("General", "str"): "string",
+}
 
 PRIMITIVES = {
     "string": "string",
@@ -171,6 +175,7 @@ def generate() -> str:
                 ret = " | ".join(unique([ts_type(item) for item in method_returns]))
             else:
                 ret = "void"
+            ret = RETURN_OVERRIDES.get((class_name, method), ret)
 
             if description:
                 lines.append("    /**")

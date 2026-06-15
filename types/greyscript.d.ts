@@ -26,7 +26,7 @@ declare namespace GreyHack {
     /**
      * This function is to be called when the player successfully completes the mission. When it is completed, the player and the event creator will receive a reward. THe more players complete the mission, the higher the mission scores, and the higher the rewards are for the creator & player. Returns false if the player has not accepted the mission or has already completed it, true otherwise.
      */
-    player_success(): number;
+    player_success(): boolean;
   }
 
   interface Blockchain {
@@ -1252,7 +1252,7 @@ declare namespace GreyHack {
     /**
      * Converts the provided input into a string.
      */
-    str(num: number): number;
+    str(num: number): string;
 
     /**
      * Returns the provided input raised to the next or equal integer.
